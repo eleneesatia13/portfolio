@@ -72,7 +72,7 @@ body {
 #section1 {
     position: fixed;
     z-index: -1;
-    background-image: url(1319219.jpeg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -94,23 +94,19 @@ body {
 }
 
 .welcome {
-    color: rgb(150, 166, 255);
+    color: rgb(8, 8, 8);
     font-size: 2.5rem;
     font-weight: 600;
     font-family: 'Playfair Display', serif;
 
 }
 
-.anano {
+.ele {
     font-size: 4rem;
 }
 
-.ana {
-    font-size: 3rem;
-}
-
-.ano {
-    font-size: 4.5rem;
+.elo {
+    font-size: 5.5rem;
 }
 
 #section3 {
@@ -257,7 +253,7 @@ body {
     outline: transparent;
     padding: 15px;
     font-size: 1rem;
-    color: #FFF;
+    color: #070606;
     width: 400px;
     resize: none;
 }
@@ -275,7 +271,7 @@ body {
 }
 
 .wraper-section3 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 1.9rem;
     font-family: Roboto;
     width: 60%;
