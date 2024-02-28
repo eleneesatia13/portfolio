@@ -158,7 +158,6 @@ body {
 
 .skill span {
     font-size: 3rem;
-
 }
 
 #section5 {
@@ -176,23 +175,21 @@ body {
 }
 
 .contact1 {
-    font-size: 2rem;
-    color: antiquewhite;
-
+    font-size: 5rem;
+    color: #000000;
 }
 
 .contact {
+    width: 50%;
+    height: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 100%;
 }
 
 .message {
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +228,7 @@ body {
     border: 1px solid rgba(243, 243, 255, 1);
     border-radius: 5px;
     outline: transparent;
-    padding: 15px;
+    padding: 10px;
     font-size: 1rem;
     color: #070606;
     width: 90%;
@@ -249,6 +246,44 @@ body {
 
 .submit:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 992px) {
+    .wraper-section5 {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+        height: 20%;
+        justify-content: flex-end;
+    }
+
+    .contact1 {
+        font-size: 4rem;
+    }
+
+    .message {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .message form {
+        padding: 20px 30px;
+        transform: translateX(0);
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    .input-field,
+    #text-area,
+    .submit {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -296,6 +331,76 @@ body {
 
     .menu {
         margin-right: 50px;
+    }
+
+    .contact1 {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .nav-bar {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .menu {
+        margin-right: 15px;
+    }
+
+    .conteiner {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .skill {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(10px);
+    }
+
+    .skill i {
+        margin-left: 30px;
+        font-size: 5rem;
+    }
+
+    .skill span {
+        margin-right: 30px;
+        font-size: 1.5rem;
+    }
+
+
+    .contact1 {
+        font-size: 2.5rem;
+    }
+
+    .contact2 {
+        font-size: 1rem;
+    }
+
+    .message form {
+        padding: 20px 10px;
+        transform: translateX(0);
+        width: max(80%, 250px);
+        display: flex;
+        align-items: center;
+    }
+
+    .input-field,
+    #text-area,
+    .submit {
+        width: 90%;
     }
 
 }
