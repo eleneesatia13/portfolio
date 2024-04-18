@@ -101,13 +101,16 @@ body {
 
 }
 
-.ele {
-    font-size: 4rem;
-}
-
 .elo {
     font-size: 5.5rem;
+    font-size: clamp(1.2rem, 7.5vw, 5.5rem);
 }
+
+.ele {
+    font-size: 4rem;
+    font-size: clamp(1.2rem, 7.5vw, 4rem);
+}
+
 
 #section3 {
     display: flex;
@@ -336,6 +339,11 @@ body {
     .contact1 {
         font-size: 3rem;
     }
+
+    .wraper-section3 {
+        font-size: 1.2rem;
+        width: 90%;
+    }
 }
 
 
@@ -350,6 +358,10 @@ body {
 
     .menu {
         margin-right: 15px;
+    }
+
+    .close {
+        right: 30px;
     }
 
     .conteiner {
